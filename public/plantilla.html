@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <title>Plantilla de express</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Plantilla</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/">Inicio</a></li>
+                <li><a href="consulta">Consulta</a></li>
+                <li><a href="numero_aleatorio">Número aleatorio</a></li>
+                <li><a href="repito_tu_nombre">Repito tu nombre</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Esto es el cuerpo de la plantilla, que será sustituido en la petición http procesada por el
+    servidor express. Para ello, se usará la librería Mustache. -->
+    {{{cuerpo}}}
+
+    <div style="margin-top: 50px">Esto es el pie de página. Aquí puedes poner lo que quieras.</div>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "express-plantilla",
+  "version": "0.0.1",
+  "description": "Plantilla básica para un servidor express fácilmente customizable, comentada en español.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js --watch public -e js,html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dizzyrobin/express-plantilla.git"
+  },
+  "keywords": [
+    "express",
+    "plantilla"
+  ],
+  "author": "dizzyrobin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dizzyrobin/express-plantilla/issues"
+  },
+  "homepage": "https://github.com/dizzyrobin/express-plantilla#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mustache": "^3.0.1",
+    "nodemon": "^1.19.1"
+  }
+}
